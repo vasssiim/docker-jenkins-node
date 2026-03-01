@@ -8,7 +8,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Welcome to Docker and React!
-          Jenkins, Docker, and React. 
+          <br/>
+          Jenkins, Docker, and React.
+          <br/>
+          Version 3
         </p>
         <a
           className="App-link"
