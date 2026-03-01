@@ -20,7 +20,7 @@ pipeline{
                 sh 'npm test'
             }
         }
-        stage(login to docker hub){
+        stage('login to docker hub'){
             steps{
                 echo 'Logging in to Docker Hub...'
                 withCredentials([usernamePassword(credentialsId: 'docker-creds', 
