@@ -11,7 +11,7 @@ function App() {
           <br/>
           Jenkins, Docker, and React.
           <br/>
-          Version 6
+          Version 7
         </p>
         <a
           className="App-link"
